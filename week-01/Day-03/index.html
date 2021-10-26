@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<script>
+    function getcube(){
+        var num=document.getElementById("number").value;
+        alert(num*num*num)
+    }
+</script>
+<style>
+    body{
+        background-color: cadetblue;
+        text-align: center;        
+        font-size: medium;
+    }
+    div :hover{
+        background-color: chartreuse;
+    
+    }
+</style>
+<body>
+    <form>
+        <div>
+            Enter Number:<input type="text" id="number"></br>
+            <input type="button" value="Find The Cube" onclick="getcube()">
+        </div>
+    </form>
+</body>
+</html>
