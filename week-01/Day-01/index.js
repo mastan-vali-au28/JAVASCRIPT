@@ -54,3 +54,13 @@ console.log(a>b);
 console.log(a<b);
 console.log(a>=b);
 console.log(a<=b);
+
+//functions
+
+function abc(a,b){
+  return a+b
+}
+var c=abc(10,50)
+var d=abc(100,200)
+console.log(c)
+console.log(d)
